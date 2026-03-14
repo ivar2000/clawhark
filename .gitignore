@@ -1,0 +1,13 @@
+.gradle/
+app/build/
+build/
+local.properties
+*.iml
+.idea/
+logs/
+*.apk
+
+# Release keystore
+keystore/
+app/src/main/assets/oauth_config.json
+keystore.properties

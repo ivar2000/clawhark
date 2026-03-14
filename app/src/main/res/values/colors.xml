@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="clawhark_red">#FFCC3333</color>
+    <color name="clawhark_red_light">#FFFF4444</color>
+    <color name="clawhark_red_dark">#FF991111</color>
+    <color name="clawhark_bg">#FF111111</color>
+    <color name="clawhark_surface">#FF1A1A1A</color>
+    <color name="clawhark_text">#FFFFFFFF</color>
+    <color name="clawhark_text_dim">#FFBBBBBB</color>
+    <color name="clawhark_text_muted">#FF888888</color>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/clawhark_bg">
+
+    <!-- Auth section (shown when not linked to Drive) -->
+    <LinearLayout
+        android:id="@+id/authGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:boxedEdges="all"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/authTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Link Google Drive"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/authStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to connect"
+            android:textColor="#BBBBBB"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/authCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:letterSpacing="0.15"
+            android:textAlignment="center"
+            android:layout_marginTop="6dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/authBtn"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="LINK"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:contentDescription="Link Google Drive account"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <!-- Recording section (shown when authenticated) -->
+    <LinearLayout
+        android:id="@+id/recordGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:boxedEdges="all"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOPPED"
+            android:textColor="#BBBBBB"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp" />
+
+        <Button
+            android:id="@+id/toggleBtn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="START"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:contentDescription="Start recording"
+            android:background="@drawable/circle_button" />
+
+        <TextView
+            android:id="@+id/infoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to record"
+            android:textColor="#BBBBBB"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:layout_marginTop="6dp" />
+    </LinearLayout>
+
+</androidx.wear.widget.BoxInsetLayout>
